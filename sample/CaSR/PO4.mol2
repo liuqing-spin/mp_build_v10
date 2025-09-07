@@ -1,0 +1,20 @@
+@<TRIPOS>MOLECULE
+8WPU
+5   4    1
+SMALL
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 P         166.8430  225.5430  357.3870 P.3       1 PO4         0.0000 
+      2 O         166.5480  224.4420  356.4000 O.co2     1 PO4         0.0000 
+      3 O12       165.7540  226.5840  357.3250 O.co2     1 PO4         0.0000 
+      4 O13       168.1600  226.1870  357.0370 O.co2     1 PO4         0.0000 
+      5 O14       166.9130  224.9670  358.7800 O.co2     1 PO4         0.0000 
+@<TRIPOS>BOND
+     1    1    2 2    
+     2    1    3 1    
+     3    1    4 1    
+     4    1    5 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PO4         1 GROUP             0 A     ****    0 ROOT    
