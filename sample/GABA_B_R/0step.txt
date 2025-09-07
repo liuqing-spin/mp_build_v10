@@ -1,1 +1,6 @@
+cp your_path/mp_build_v10/scripts/make_nonaa_lig/make_lig_v6.pl ./
+perl make_lig_v6.pl -pdb 2C0.pdb -mol2 2C0.mol2 -name 2C0 -gau g16 -np 6 -ac 0
+cp 2C0.prepin 2C0.lib 2C0.frcmod your_path/mp_build_v10/databases/nonaa/
+cp your_path/mp_build_v10/build.sh ./
+ bash build.sh -p_com 7EB2.pdb -m_path your_path/mp_build_v10  -p_tmm C -p_tmm D -p_cid C -p_cid D -p_cid A -p_cid B -p_cid Y -p_seq complex_seq.txt -p_tpt template.pdb -c_lig 2C0_m.pdb
 
