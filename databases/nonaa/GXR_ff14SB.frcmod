@@ -1,0 +1,131 @@
+Remark line goes here
+MASS
+CT 12.010        0.878
+OH 16.000        0.465
+CM 12.010        0.360
+C  12.010        0.616
+CD 12.010        0.360
+O  16.000        0.434
+Cl 35.450        1.910
+HC 1.008         0.135
+H1 1.008         0.135
+HO 1.008         0.135
+HA 1.008         0.167
+
+BOND
+CT-CT  310.00   1.526
+C -CT  317.00   1.522
+CT-OH  320.00   1.410
+CT-HC  340.00   1.090
+CT-H1  340.00   1.090
+CT-Cl  232.00   1.766
+HO-OH  553.00   0.960
+CM-CT  317.00   1.510
+CD-CM  549.00   1.350
+C -O   570.00   1.229
+CM-HA  367.00   1.080
+C -CD  410.00   1.444       same as  C-CM, penalty score=  2.4
+CD-HA  367.00   1.080
+
+ANGLE
+CT-CT-CT   40.000     109.500
+CT-C -CT   63.000     117.000
+CT-C -O    80.000     120.400
+CT-CT-HC   50.000     109.500
+CT-OH-HO   55.000     108.500
+CT-CT-Cl   50.000     108.500
+CT-CT-OH   50.000     109.500
+CT-CT-H1   50.000     109.500
+CM-CT-CT   63.000     111.000
+H1-CT-OH   50.000     109.500
+C -CT-CT   63.000     111.100
+CT-CM-CT    0.000       0.000   ATTN, need revision
+CD-CM-CT   70.000     119.700   same as CM-CM-CT, penalty score=  0.1
+CT-CM-HA   50.000     120.000
+CM-CT-CM    0.000       0.000   ATTN, need revision
+CM-CT-HC   50.000     109.500
+C -CD-CM   63.000     120.700   same as C -CM-CM, penalty score=  2.0
+CM-CD-HA   50.000     120.000
+C -CT-OH   60.000     109.500   same as C -CT-OS, penalty score=  6.0
+C -CT-H1   50.000     109.500
+CD-C -CD   63.000     120.000   same as CA-C -CA, penalty score=  1.5
+CD-C -O    80.000     125.300   same as CM-C -O , penalty score=  0.1
+CD-CM-HA   50.000     120.000
+C -CD-HA   50.000     119.700   same as C -CM-HA, penalty score=  2.0
+HC-CT-HC   35.000     109.500
+H1-CT-H1   35.000     109.500
+
+DIHE
+CT-CT-CT-CT   1    0.180         0.000          -3.000
+CT-CT-CT-CT   1    0.250       180.000          -2.000
+CT-CT-CT-CT   1    0.200       180.000           1.000
+CT-CT-CT-HC   1    0.160         0.000           3.000
+CT-C -CT-OH   6    0.000         0.000           2.000
+CT-C -CT-H1   6    0.000         0.000           2.000
+CM-CT-CT-CT   9    1.400         0.000           3.000
+CT-CT-OH-HO   1    0.160         0.000          -3.000
+CT-CT-OH-HO   1    0.250         0.000           1.000
+CT-CM-CT-CT   6    0.000         0.000           3.000
+CD-CM-CT-CT   6    0.000         0.000           3.000
+HA-CM-CT-CT   6    0.000         0.000           3.000
+CT-CT-CT-OH   9    1.400         0.000           3.000
+Cl-CT-CT-OH   9    1.400         0.000           3.000
+HC-CT-CT-OH   1    0.000         0.000          -3.000
+HC-CT-CT-OH   1    0.250         0.000           1.000
+CT-C -CT-CT   6    0.000         0.000           2.000
+O -C -CT-CT   6    0.000         0.000           2.000
+CT-CT-CT-Cl   9    1.400         0.000           3.000
+C -CD-CM-CT   4   26.600       180.000           2.000
+HA-CD-CM-CT   4   26.600       180.000           2.000
+CM-CT-CT-HC   9    1.400         0.000           3.000
+CD-CM-CT-CM   6    0.000         0.000           3.000
+HA-CM-CT-CM   6    0.000         0.000           3.000
+CD-C -CD-CM   4   14.500       180.000           2.000      same as X -C -CA-X , penalty score=354.5
+O -C -CD-CM   1    2.175       180.000          -2.000      same as CM-CM-C -O 
+O -C -CD-CM   1    0.300         0.000           3.000      same as CM-CM-C -O , penalty score=508.0
+C -CT-CT-CT   9    1.400         0.000           3.000
+C -CT-CT-HC   9    1.400         0.000           3.000
+C -CT-OH-HO   3    0.500         0.000           3.000
+CT-CM-CT-CM   6    0.000         0.000           3.000
+O -C -CT-OH   6    0.000         0.000           2.000
+O -C -CT-H1   1    0.800         0.000          -1.000
+O -C -CT-H1   1    0.000         0.000          -2.000
+O -C -CT-H1   1    0.080       180.000           3.000
+Cl-CT-CT-HC   1    0.000         0.000          -3.000
+Cl-CT-CT-HC   1    0.250         0.000           1.000
+CM-CT-CT-Cl   9    1.400         0.000           3.000
+HC-CT-CT-HC   1    0.150         0.000           3.000
+CT-CT-CT-H1   9    1.400         0.000           3.000
+Cl-CT-CT-H1   1    0.000         0.000          -3.000
+Cl-CT-CT-H1   1    0.250         0.000           1.000
+H1-CT-OH-HO   3    0.500         0.000           3.000
+H1-CT-CT-HC   9    1.400         0.000           3.000
+CT-CM-CT-HC   6    0.000         0.000           3.000
+CD-CM-CT-HC   6    0.000         0.000           3.000
+C -CD-CM-HA   4   26.600       180.000           2.000
+HA-CD-CM-HA   4   26.600       180.000           2.000
+CD-C -CD-HA   4   14.500       180.000           2.000      same as X -C -CA-X , penalty score=354.5
+O -C -CD-HA   4   14.500       180.000           2.000      same as X -C -CA-X , penalty score=354.5
+
+IMPROPER
+CD-CT-CM-CT         1.1          180.0         2.0          Using the default value
+CT-CT-C -O         10.5          180.0         2.0          Using general improper torsional angle  X- X- C- O, penalty score=  6.0)
+CD-CT-CM-HA         1.1          180.0         2.0          Using the default value
+C -CM-CD-HA         1.1          180.0         2.0          Using the default value
+CD-CD-C -O         10.5          180.0         2.0          Using general improper torsional angle  X- X- C- O, penalty score=  6.0)
+
+NONBON
+  CT          1.9080  0.1094
+  OH          1.7210  0.2104
+  CM          1.9080  0.0860
+  C           1.9080  0.0860
+  CD          1.9080  0.0860
+  O           1.6612  0.2100
+  Cl          1.9480  0.2650
+  HC          1.4870  0.0157
+  H1          1.3870  0.0157
+  HO          0.0000  0.0000
+  HA          1.4590  0.0150
+
+
+

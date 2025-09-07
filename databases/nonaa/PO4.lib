@@ -1,0 +1,63 @@
+!!index array str
+ "PO4"
+!entry.PO4.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "O" "O2" 0 1 131072 1 8 -1.133602
+ "P" "P" 0 1 131072 2 15 1.534038
+ "O13" "O2" 0 1 131072 3 8 -1.132656
+ "O14" "O2" 0 1 131072 4 8 -1.133796
+ "O12" "O2" 0 1 131072 5 8 -1.133984
+!entry.PO4.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "O" "O2" 0 -1 0.0
+ "P" "P" 0 -1 0.0
+ "O13" "O2" 0 -1 0.0
+ "O14" "O2" 0 -1 0.0
+ "O12" "O2" 0 -1 0.0
+!entry.PO4.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.PO4.unit.childsequence single int
+ 2
+!entry.PO4.unit.connect array int
+ 0
+ 0
+!entry.PO4.unit.connectivity table  int atom1x  int atom2x  int flags
+ 2 1 1
+ 2 3 1
+ 2 4 1
+ 2 5 1
+!entry.PO4.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+!entry.PO4.unit.name single str
+ "PO4"
+!entry.PO4.unit.positions table  dbl x  dbl y  dbl z
+ 1.540 111.208 -180.000
+ 1.508 84.102 -20.645
+ 1.507 109.304 -57.994
+ 1.508 109.582 -178.266
+ 1.509 109.589 61.484
+!entry.PO4.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.PO4.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "PO4" 1 6 1 "?" 0
+!entry.PO4.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.PO4.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.PO4.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

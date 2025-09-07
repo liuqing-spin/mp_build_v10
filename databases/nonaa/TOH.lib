@@ -1,0 +1,135 @@
+!!index array str
+ "TOH"
+!entry.TOH.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.400200
+ "H" "H" 0 1 131072 2 1 0.281344
+ "CA" "CT" 0 1 131072 3 6 -0.052021
+ "C" "CT" 0 1 131072 4 6 0.058353
+ "O" "OH" 0 1 131072 5 8 -0.659227
+ "HO" "HO" 0 1 131072 6 1 0.448983
+ "HCX3" "H1" 0 1 131072 7 1 0.058228
+ "HCX2" "H1" 0 1 131072 8 1 0.058228
+ "CB" "CT" 0 1 131072 9 6 0.259090
+ "OG1" "OH" 0 1 131072 10 8 -0.626792
+ "HG1" "HO" 0 1 131072 11 1 0.392836
+ "CG2" "CT" 0 1 131072 12 6 -0.174927
+ "HG21" "HC" 0 1 131072 13 1 0.061631
+ "HG22" "HC" 0 1 131072 14 1 0.061631
+ "HG23" "HC" 0 1 131072 15 1 0.061631
+ "HB" "H1" 0 1 131072 16 1 0.045499
+ "HA" "H1" 0 1 131072 17 1 0.125712
+!entry.TOH.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "C" "CT" 0 -1 0.0
+ "O" "OH" 0 -1 0.0
+ "HO" "HO" 0 -1 0.0
+ "HCX3" "H1" 0 -1 0.0
+ "HCX2" "H1" 0 -1 0.0
+ "CB" "CT" 0 -1 0.0
+ "OG1" "OH" 0 -1 0.0
+ "HG1" "HO" 0 -1 0.0
+ "CG2" "CT" 0 -1 0.0
+ "HG21" "HC" 0 -1 0.0
+ "HG22" "HC" 0 -1 0.0
+ "HG23" "HC" 0 -1 0.0
+ "HB" "H1" 0 -1 0.0
+ "HA" "H1" 0 -1 0.0
+!entry.TOH.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.TOH.unit.childsequence single int
+ 2
+!entry.TOH.unit.connect array int
+ 1
+ 0
+!entry.TOH.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 3 4 1
+ 3 9 1
+ 3 17 1
+ 4 5 1
+ 4 7 1
+ 4 8 1
+ 5 6 1
+ 9 10 1
+ 9 12 1
+ 9 16 1
+ 10 11 1
+ 12 13 1
+ 12 14 1
+ 12 15 1
+!entry.TOH.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+!entry.TOH.unit.name single str
+ "TOH"
+!entry.TOH.unit.positions table  dbl x  dbl y  dbl z
+ 1.540 111.208 -180.000
+ 1.010 89.830 145.696
+ 1.474 153.473 -53.026
+ 1.549 109.019 -128.657
+ 1.416 112.720 -68.496
+ 0.961 108.663 179.401
+ 1.090 111.129 167.225
+ 1.091 109.829 51.518
+ 1.561 112.690 104.599
+ 1.416 110.935 -58.060
+ 0.960 108.144 39.625
+ 1.541 113.951 -177.822
+ 1.091 111.420 175.825
+ 1.089 111.391 -64.907
+ 1.090 111.493 55.453
+ 1.091 109.451 60.127
+ 1.093 107.362 -14.093
+!entry.TOH.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 0 0 0 0 0
+!entry.TOH.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "TOH" 1 18 1 "p" 0
+!entry.TOH.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.TOH.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.TOH.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

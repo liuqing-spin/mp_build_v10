@@ -1,0 +1,160 @@
+!!index array str
+ "TYE"
+!entry.TYE.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.397726
+ "H" "H" 0 1 131072 2 1 0.249383
+ "CA" "CT" 0 1 131072 3 6 0.011640
+ "CB" "CT" 0 1 131072 4 6 0.052368
+ "CG" "CA" 0 1 131072 5 6 0.009438
+ "CD1" "CA" 0 1 131072 6 6 -0.229808
+ "CE1" "CA" 0 1 131072 7 6 -0.182964
+ "CZ" "CA" 0 1 131072 8 6 0.272580
+ "CE2" "CA" 0 1 131072 9 6 -0.182964
+ "CD2" "CA" 0 1 131072 10 6 -0.229808
+ "HD2" "HA" 0 1 131072 11 1 0.179506
+ "HE2" "HA" 0 1 131072 12 1 0.152302
+ "OH" "OH" 0 1 131072 13 8 -0.542561
+ "HOH" "HO" 0 1 131072 14 1 0.392224
+ "HE1" "HA" 0 1 131072 15 1 0.152302
+ "HD1" "HA" 0 1 131072 16 1 0.179506
+ "HB1" "HC" 0 1 131072 17 1 0.013854
+ "HB2" "HC" 0 1 131072 18 1 0.013854
+ "HA" "H1" 0 1 131072 19 1 0.060299
+ "C" "C" 0 1 131072 20 6 0.581863
+ "O" "O" 0 1 131072 21 8 -0.555289
+!entry.TYE.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "CB" "CT" 0 -1 0.0
+ "CG" "CA" 0 -1 0.0
+ "CD1" "CA" 0 -1 0.0
+ "CE1" "CA" 0 -1 0.0
+ "CZ" "CA" 0 -1 0.0
+ "CE2" "CA" 0 -1 0.0
+ "CD2" "CA" 0 -1 0.0
+ "HD2" "HA" 0 -1 0.0
+ "HE2" "HA" 0 -1 0.0
+ "OH" "OH" 0 -1 0.0
+ "HOH" "HO" 0 -1 0.0
+ "HE1" "HA" 0 -1 0.0
+ "HD1" "HA" 0 -1 0.0
+ "HB1" "HC" 0 -1 0.0
+ "HB2" "HC" 0 -1 0.0
+ "HA" "H1" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+!entry.TYE.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.TYE.unit.childsequence single int
+ 2
+!entry.TYE.unit.connect array int
+ 1
+ 20
+!entry.TYE.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 3 4 1
+ 3 19 1
+ 3 20 1
+ 4 5 1
+ 4 17 1
+ 4 18 1
+ 5 6 1
+ 5 10 1
+ 6 7 1
+ 6 16 1
+ 7 8 1
+ 7 15 1
+ 8 13 1
+ 9 8 1
+ 9 12 1
+ 10 9 1
+ 10 11 1
+ 13 14 1
+ 20 21 1
+!entry.TYE.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+ "R" 1 "A" 20
+ "R" 1 "A" 21
+!entry.TYE.unit.name single str
+ "TYE"
+!entry.TYE.unit.positions table  dbl x  dbl y  dbl z
+ 1.540 111.208 -180.000
+ 1.010 63.405 -115.032
+ 1.465 78.024 11.185
+ 1.545 109.810 -134.269
+ 1.519 114.909 -64.554
+ 1.411 120.339 103.930
+ 1.408 120.159 -179.389
+ 1.409 120.045 -0.084
+ 1.408 119.908 -0.010
+ 1.408 120.024 0.049
+ 1.081 119.673 179.629
+ 1.081 120.332 179.918
+ 1.364 119.916 179.991
+ 0.960 113.154 -179.575
+ 1.081 119.906 179.848
+ 1.081 120.336 0.130
+ 1.091 109.612 174.843
+ 1.091 110.019 59.108
+ 1.091 109.902 105.610
+ 1.536 109.671 -12.592
+ 1.233 119.772 -29.983
+!entry.TYE.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 20 0 0 0 0
+!entry.TYE.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "TYE" 1 22 1 "p" 0
+!entry.TYE.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.TYE.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.TYE.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

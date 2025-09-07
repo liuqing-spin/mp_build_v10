@@ -1,0 +1,86 @@
+Remark line goes here
+MASS
+CT 12.010        0.878
+CA 12.010        0.360
+NT 14.010        0.530
+F  19.000        0.320
+HA 1.008         0.167
+HC 1.008         0.135
+H1 1.008         0.135
+H  1.008         0.161
+
+BOND
+CT-CT  310.00   1.526
+CT-HC  340.00   1.090
+CT-NT  367.00   1.471
+CT-H1  340.00   1.090
+CA-CT  317.00   1.510
+CA-CA  469.00   1.400
+H -NT  434.00   1.010
+CA-HA  367.00   1.080
+CT-F   367.00   1.380
+
+ANGLE
+CT-CT-NT   80.000     111.200
+CA-CT-CT   63.000     114.000
+CT-CT-H1   50.000     109.500
+CT-CT-CT   40.000     109.500
+CT-CT-HC   50.000     109.500
+CT-NT-CT   50.000     109.500
+CT-NT-H    50.000     109.500
+CA-CA-CT   70.000     120.000
+CA-CT-HC   50.000     109.500
+CA-CA-CA   63.000     120.000
+CA-CA-HA   50.000     120.000
+H1-CT-NT   50.000     109.500
+CA-CT-NT    0.000       0.000   ATTN, need revision
+CA-CT-H1   50.000     109.500   same as CA-CT-HC, penalty score=  0.1
+CA-CT-F     0.000       0.000   ATTN, need revision
+F -CT-F    77.000     109.100
+HC-CT-HC   35.000     109.500
+H1-CT-H1   35.000     109.500
+
+DIHE
+CA-CA-CT-CT   6    0.000         0.000           2.000
+CA-CT-CT-CT   9    1.400         0.000           3.000
+CT-CT-CT-HC   1    0.160         0.000           3.000
+CT-CT-NT-CT   1    0.300         0.000          -3.000
+CT-CT-NT-CT   1    0.480       180.000           2.000
+CA-CT-NT-CT   6    1.800         0.000           3.000
+H1-CT-NT-CT   6    1.800         0.000           3.000
+CT-CT-NT-H    6    1.800         0.000           3.000
+CA-CA-CA-CT   4   14.500       180.000           2.000
+CT-CA-CA-HA   4   14.500       180.000           2.000
+CA-CA-CA-CA   4   14.500       180.000           2.000
+CT-CT-CT-NT   9    1.400         0.000           3.000
+HC-CT-CT-NT   9    1.400         0.000           3.000
+CA-CA-CT-NT   6    0.000         0.000           2.000
+CA-CA-CA-HA   4   14.500       180.000           2.000
+CA-CA-CT-F    6    0.000         0.000           2.000
+HA-CA-CA-HA   4   14.500       180.000           2.000
+CA-CT-CT-HC   9    1.400         0.000           3.000
+H1-CT-CT-HC   9    1.400         0.000           3.000
+CT-CT-CT-H1   9    1.400         0.000           3.000
+H1-CT-NT-H    6    1.800         0.000           3.000
+HC-CT-CT-HC   1    0.150         0.000           3.000
+CA-CA-CT-HC   6    0.000         0.000           2.000
+CA-CT-NT-H    6    1.800         0.000           3.000
+CA-CA-CT-H1   6    0.000         0.000           2.000
+
+IMPROPER
+CA-CA-CA-CT         1.1          180.0         2.0
+CA-CA-CA-CA         1.1          180.0         2.0          Using the default value
+CA-CA-CA-HA         1.1          180.0         2.0          Using general improper torsional angle  X- X-CA-HA, penalty score=  6.0)
+
+NONBON
+  CT          1.9080  0.1094
+  CA          1.9080  0.0860
+  NT          1.8240  0.1700             same as N  
+  F           1.7500  0.0610
+  HA          1.4590  0.0150
+  HC          1.4870  0.0157
+  H1          1.3870  0.0157
+  H           0.6000  0.0157
+
+
+

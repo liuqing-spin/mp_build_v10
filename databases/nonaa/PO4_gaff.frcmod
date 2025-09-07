@@ -1,0 +1,21 @@
+Remark line goes here
+MASS
+P  30.970        1.538               same as p5 
+O2 16.000        0.434               same as o  
+
+BOND
+O2-P   479.50   1.487       same as  o-p5, penalty score=  0.0
+
+ANGLE
+O2-P -O2   45.800     115.800   same as o -p5-o , penalty score=  0.0
+
+DIHE
+
+IMPROPER
+
+NONBON
+  P           2.1000  0.2000             same as p5 
+  O2          1.6612  0.2100             same as o  
+
+
+

@@ -1,0 +1,136 @@
+!!index array str
+ "HSM"
+!entry.HSM.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "NA" "NT" 0 1 131072 1 7 -0.908793
+ "H111" "H" 0 1 131072 2 1 0.333412
+ "H112" "H" 0 1 131072 3 1 0.333412
+ "CA" "CT" 0 1 131072 4 6 0.319632
+ "HA1" "H1" 0 1 131072 5 1 -0.010417
+ "HA2" "H1" 0 1 131072 6 1 -0.010417
+ "CB" "CT" 0 1 131072 7 6 -0.263451
+ "HB1" "HC" 0 1 131072 8 1 0.092860
+ "HB2" "HC" 0 1 131072 9 1 0.092860
+ "CG" "CC" 0 1 131072 10 6 0.301130
+ "ND1" "NB" 0 1 131072 11 7 -0.439361
+ "CE1" "CR" 0 1 131072 12 6 0.005058
+ "HE1" "H5" 0 1 131072 13 1 0.149442
+ "NE2" "NA" 0 1 131072 14 7 -0.094649
+ "HNE2" "H" 0 1 131072 15 1 0.307797
+ "CD2" "CW" 0 1 131072 16 6 -0.381083
+ "HD2" "H4" 0 1 131072 17 1 0.172567
+!entry.HSM.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "NA" "NT" 0 -1 0.0
+ "H111" "H" 0 -1 0.0
+ "H112" "H" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "HA1" "H1" 0 -1 0.0
+ "HA2" "H1" 0 -1 0.0
+ "CB" "CT" 0 -1 0.0
+ "HB1" "HC" 0 -1 0.0
+ "HB2" "HC" 0 -1 0.0
+ "CG" "CC" 0 -1 0.0
+ "ND1" "NB" 0 -1 0.0
+ "CE1" "CR" 0 -1 0.0
+ "HE1" "H5" 0 -1 0.0
+ "NE2" "NA" 0 -1 0.0
+ "HNE2" "H" 0 -1 0.0
+ "CD2" "CW" 0 -1 0.0
+ "HD2" "H4" 0 -1 0.0
+!entry.HSM.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.HSM.unit.childsequence single int
+ 2
+!entry.HSM.unit.connect array int
+ 0
+ 0
+!entry.HSM.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 1 4 1
+ 4 5 1
+ 4 6 1
+ 4 7 1
+ 7 8 1
+ 7 9 1
+ 7 10 1
+ 10 11 1
+ 10 16 1
+ 11 12 1
+ 12 13 1
+ 12 14 1
+ 14 15 1
+ 16 14 1
+ 16 17 1
+!entry.HSM.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+!entry.HSM.unit.name single str
+ "HSM"
+!entry.HSM.unit.positions table  dbl x  dbl y  dbl z
+ 1.540 111.208 -180.000
+ 1.010 51.460 -65.934
+ 1.010 67.033 150.981
+ 1.452 151.756 -120.334
+ 1.090 109.444 102.625
+ 1.090 109.473 -17.776
+ 1.521 109.142 -137.567
+ 1.089 109.461 89.637
+ 1.091 109.410 -26.410
+ 1.522 112.776 -148.365
+ 1.313 126.893 70.047
+ 1.315 108.745 179.761
+ 1.080 119.978 -179.980
+ 1.314 109.275 0.060
+ 1.010 131.713 179.966
+ 1.318 108.298 -0.125
+ 1.080 132.958 -179.897
+!entry.HSM.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.HSM.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "HSM" 1 18 1 "?" 0
+!entry.HSM.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.HSM.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.HSM.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

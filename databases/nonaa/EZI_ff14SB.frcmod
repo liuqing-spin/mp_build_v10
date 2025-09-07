@@ -1,0 +1,149 @@
+Remark line goes here
+MASS
+CA 12.010        0.360
+CT 12.010        0.878
+CM 12.010        0.360
+C  12.010        0.616
+CZ 12.010        0.360
+N* 14.010        0.530
+NC 14.010        0.530
+N1 14.010        0.000               ATTN, no polarizability parameter
+O  16.000        0.434
+OH 16.000        0.465
+HA 1.008         0.167
+HC 1.008         0.135
+HO 1.008         0.135
+
+BOND
+CA-CM  427.00   1.433
+CA-NC  483.00   1.339
+CT-CT  310.00   1.526
+CT-HC  340.00   1.090
+CM-HA  367.00   1.080
+CA-CA  469.00   1.400
+CA-HA  367.00   1.080
+CA-CZ    0.00   0.000       ATTN, need revision
+CA-CT  317.00   1.510
+CA-N*  436.00   1.374       same as CB-N*, penalty score=  3.1
+C -CM  410.00   1.444
+C -N*  424.00   1.383
+C -O   570.00   1.229
+CM-N*  448.00   1.365
+CA-OH  450.00   1.364
+CZ-N1    0.00   0.000       ATTN, need revision
+HO-OH  553.00   0.960
+
+ANGLE
+CA-CM-CA   63.000     117.000   same as CA-CM-CM, penalty score=  1.1
+CA-CM-HA   50.000     123.300
+C -CM-CA   63.000     120.700   same as C -CM-CM, penalty score=  1.1
+CA-NC-CA   70.000     118.600   same as CA-NC-CQ, penalty score=  0.3
+CA-CT-CT   63.000     114.000
+CT-CT-CT   40.000     109.500
+CT-CT-HC   50.000     109.500
+CM-CA-CM   63.000     120.000   same as CA-CA-CA, penalty score=  2.2
+CM-CA-NC   70.000     121.500
+CA-CA-CM   63.000     120.000   same as CA-CA-CA, penalty score=  1.1
+CM-CA-OH   70.000     120.000   same as CA-CA-OH, penalty score=  1.1
+CA-CA-CA   63.000     120.000
+CA-CA-HA   50.000     120.000
+CA-CM-N*   70.000     121.200   same as CM-CM-N*, penalty score=  1.1
+CA-CA-CZ    0.000       0.000   ATTN, need revision
+CA-CZ-N1    0.000       0.000   ATTN, need revision
+CT-CA-N*    0.000       0.000   ATTN, need revision
+CT-CA-NC    0.000       0.000   ATTN, need revision
+CA-CT-HC   50.000     109.500
+C -N*-CA   70.000     121.600   same as C -N*-CM, penalty score=  1.1
+CA-N*-CM   70.000     105.400   same as CB-N*-CK, penalty score=  6.7
+CM-C -N*    0.000       0.000   ATTN, need revision
+CM-C -O    80.000     125.300
+CM-CA-HA   50.000     120.000   same as CA-CA-HA, penalty score=  1.1
+C -N*-CM   70.000     121.600
+CA-OH-HO   50.000     113.000
+CA-CA-OH   70.000     120.000
+N*-CA-NC   71.208     129.100   Calculated using NC-CQ-NC, penalty score=159.5
+N*-C -O    80.000     120.900
+HC-CT-HC   35.000     109.500
+
+DIHE
+CA-CA-CM-CA   4   10.200       180.000           2.000
+OH-CA-CM-CA   4   10.200       180.000           2.000
+N*-C -CM-CA   4    8.700       180.000           2.000
+O -C -CM-CA   4    8.700       180.000           2.000
+HA-CA-CM-CA   4   10.200       180.000           2.000
+N*-CA-CT-CT   6    0.000         0.000           2.000
+NC-CA-CT-CT   6    0.000         0.000           2.000
+CT-CT-CT-HC   1    0.160         0.000           3.000
+CM-CA-CM-C    4   10.200       180.000           2.000
+CM-CA-CM-CA   4   10.200       180.000           2.000
+CM-CA-NC-CA   2    9.600       180.000           2.000
+CA-CA-CA-CM   4   14.500       180.000           2.000
+CM-CA-CA-HA   4   14.500       180.000           2.000
+CM-CA-OH-HO   2    1.800       180.000           2.000
+CA-CA-CA-CA   4   14.500       180.000           2.000
+CA-CA-CA-CZ   4   14.500       180.000           2.000
+CA-CM-N*-CA   4    7.400       180.000           2.000
+CA-CM-N*-C    4    7.400       180.000           2.000
+CA-CA-CZ-N1   1    0.000         0.000           2.000      ATTN, need revision
+CA-CA-CM-N*   4   10.200       180.000           2.000
+CA-CA-CZ-N1   0    0.000         0.000           0.000
+CA-CA-CA-HA   4   14.500       180.000           2.000
+CT-CA-N*-C    4    6.600       180.000           2.000      same as X -CB-N*-X , penalty score=198.5
+CT-CA-N*-CM   4    6.600       180.000           2.000      same as X -CB-N*-X , penalty score=198.5
+CT-CA-NC-CA   2    9.600       180.000           2.000
+CA-CT-CT-HC   9    1.400         0.000           3.000
+CM-CA-CM-HA   4   10.200       180.000           2.000
+CM-C -N*-CA   4    5.800       180.000           2.000
+CM-C -N*-CM   4    5.800       180.000           2.000
+CA-CA-CM-C    4   10.200       180.000           2.000
+HA-CA-CM-C    4   10.200       180.000           2.000
+CA-CA-OH-HO   2    1.800       180.000           2.000
+N*-CA-NC-CA   2    9.600       180.000           2.000
+HA-CA-CM-N*   4   10.200       180.000           2.000
+NC-CA-CM-CA   4   10.200       180.000           2.000
+NC-CA-CM-HA   4   10.200       180.000           2.000
+NC-CA-CM-C    4   10.200       180.000           2.000
+NC-CA-N*-C    4    6.600       180.000           2.000      same as X -CB-N*-X , penalty score=198.5
+NC-CA-N*-CM   4    6.600       180.000           2.000      same as X -CB-N*-X , penalty score=198.5
+O -C -N*-CA   4    5.800       180.000           2.000
+O -C -N*-CM   4    5.800       180.000           2.000
+CA-CA-CA-OH   4   14.500       180.000           2.000
+HA-CA-CA-OH   4   14.500       180.000           2.000
+CA-CA-CM-HA   4   10.200       180.000           2.000
+OH-CA-CM-HA   4   10.200       180.000           2.000
+HA-CA-CA-HA   4   14.500       180.000           2.000
+CZ-CA-CA-HA   4   14.500       180.000           2.000
+HC-CT-CT-HC   1    0.150         0.000           3.000
+N*-CA-CT-HC   6    0.000         0.000           2.000
+NC-CA-CT-HC   6    0.000         0.000           2.000
+
+IMPROPER
+CM-CM-CA-NC         1.1          180.0         2.0          Using the default value
+CA-CA-CM-HA         1.1          180.0         2.0          Same as X -X -CA-HA, penalty score= 42.1 (use general term))
+CA-CM-CA-HA         1.1          180.0         2.0          Using general improper torsional angle  X- X-CA-HA, penalty score=  6.0)
+CA-CA-CA-HA         1.1          180.0         2.0          Using general improper torsional angle  X- X-CA-HA, penalty score=  6.0)
+CA-CA-CA-CZ         1.1          180.0         2.0          Using the default value
+CT-N*-CA-NC         1.1          180.0         2.0          Using the default value
+C -CA-CM-CA         1.1          180.0         2.0          Using the default value
+CM-N*-C -O         10.5          180.0         2.0          Using general improper torsional angle  X- X- C- O, penalty score=  6.0)
+CA-CA-CM-N*         1.1          180.0         2.0          Using the default value
+CA-CM-CA-OH         1.1          180.0         2.0          Using the default value
+C -CA-N*-CM         1.1          180.0         2.0          Using the default value
+
+NONBON
+  CA          1.9080  0.0860
+  CT          1.9080  0.1094
+  CM          1.9080  0.0860
+  C           1.9080  0.0860
+  CZ          1.9080  0.0860
+  N*          0.0000  0.0000             ATTN, need revision
+  NC          0.0000  0.0000             ATTN, need revision
+  N1          0.0000  0.0000             ATTN, need revision
+  O           1.6612  0.2100
+  OH          1.7210  0.2104
+  HA          1.4590  0.0150
+  HC          1.4870  0.0157
+  HO          0.0000  0.0000
+
+
+

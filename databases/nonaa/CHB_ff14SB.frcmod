@@ -1,0 +1,66 @@
+Remark line goes here
+MASS
+C  12.010        0.616
+CA 12.010        0.360
+O  16.000        0.434
+OH 16.000        0.465
+Cl 35.450        1.910
+HA 1.008         0.167
+HO 1.008         0.135
+
+BOND
+C -CA  469.00   1.409
+C -O   570.00   1.229
+C -OH  450.00   1.364
+CA-CA  469.00   1.400
+CA-HA  367.00   1.080
+CA-OH  450.00   1.364
+CA-Cl  193.00   1.727
+HO-OH  553.00   0.960
+
+ANGLE
+C -CA-CA   63.000     120.000
+C -OH-HO   50.000     113.000
+CA-C -O    80.000     125.300   same as CM-C -O , penalty score=  1.1
+CA-C -OH   70.000     120.000
+CA-CA-CA   63.000     120.000
+CA-CA-HA   50.000     120.000
+CA-CA-OH   70.000     120.000
+CA-OH-HO   50.000     113.000
+CA-CA-Cl   70.000     118.800
+O -C -OH   80.000     120.000
+
+DIHE
+C -CA-CA-CA   4   14.500       180.000           2.000
+C -CA-CA-HA   4   14.500       180.000           2.000
+CA-C -OH-HO   2    4.600       180.000           2.000
+CA-CA-CA-CA   4   14.500       180.000           2.000
+CA-CA-CA-OH   4   14.500       180.000           2.000
+CA-CA-CA-HA   4   14.500       180.000           2.000
+CA-CA-OH-HO   2    1.800       180.000           2.000
+CA-CA-CA-Cl   4   14.500       180.000           2.000
+O -C -CA-CA   4   14.500       180.000           2.000
+O -C -OH-HO   1    2.300       180.000          -2.000
+O -C -OH-HO   1    1.900         0.000           1.000
+OH-C -CA-CA   4   14.500       180.000           2.000
+HA-CA-CA-OH   4   14.500       180.000           2.000
+Cl-CA-CA-HA   4   14.500       180.000           2.000
+
+IMPROPER
+CA-O -C -OH         1.1          180.0         2.0          Using the default value
+C -CA-CA-CA         1.1          180.0         2.0          Using the default value
+CA-CA-CA-HA         1.1          180.0         2.0          Using the default value
+CA-CA-CA-OH         1.1          180.0         2.0
+CA-CA-CA-Cl         1.1          180.0         2.0          Using the default value
+
+NONBON
+  C           1.9080  0.0860
+  CA          1.9080  0.0860
+  O           1.6612  0.2100
+  OH          1.7210  0.2104
+  Cl          1.9480  0.2650
+  HA          1.4590  0.0150
+  HO          0.0000  0.0000
+
+
+

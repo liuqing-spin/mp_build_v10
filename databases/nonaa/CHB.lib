@@ -1,0 +1,130 @@
+!!index array str
+ "CHB"
+!entry.CHB.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "O01" "O" 0 1 131072 1 8 -0.568556
+ "C02" "C" 0 1 131072 2 6 0.743959
+ "O13" "OH" 0 1 131072 3 8 -0.642142
+ "HO13" "HO" 0 1 131072 4 1 0.463921
+ "C14" "CA" 0 1 131072 5 6 -0.117710
+ "C25" "CA" 0 1 131072 6 6 -0.157838
+ "HC25" "HA" 0 1 131072 7 1 0.196825
+ "C36" "CA" 0 1 131072 8 6 0.272879
+ "O27" "OH" 0 1 131072 9 8 -0.607282
+ "HO27" "HO" 0 1 131072 10 1 0.458268
+ "C48" "CA" 0 1 131072 11 6 -0.151793
+ "HC48" "HA" 0 1 131072 12 1 0.149510
+ "C59" "CA" 0 1 131072 13 6 -0.070156
+ "CL10" "Cl" 0 1 131072 14 17 -0.064198
+ "C61" "CA" 0 1 131072 15 6 -0.054823
+ "HC11" "HA" 0 1 131072 16 1 0.149133
+!entry.CHB.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "O01" "O" 0 -1 0.0
+ "C02" "C" 0 -1 0.0
+ "O13" "OH" 0 -1 0.0
+ "HO13" "HO" 0 -1 0.0
+ "C14" "CA" 0 -1 0.0
+ "C25" "CA" 0 -1 0.0
+ "HC25" "HA" 0 -1 0.0
+ "C36" "CA" 0 -1 0.0
+ "O27" "OH" 0 -1 0.0
+ "HO27" "HO" 0 -1 0.0
+ "C48" "CA" 0 -1 0.0
+ "HC48" "HA" 0 -1 0.0
+ "C59" "CA" 0 -1 0.0
+ "CL10" "Cl" 0 -1 0.0
+ "C61" "CA" 0 -1 0.0
+ "HC11" "HA" 0 -1 0.0
+!entry.CHB.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.CHB.unit.childsequence single int
+ 2
+!entry.CHB.unit.connect array int
+ 0
+ 0
+!entry.CHB.unit.connectivity table  int atom1x  int atom2x  int flags
+ 2 1 1
+ 2 3 1
+ 2 5 1
+ 3 4 1
+ 5 6 1
+ 5 15 1
+ 6 7 1
+ 6 8 1
+ 8 9 1
+ 8 11 1
+ 9 10 1
+ 11 12 1
+ 11 13 1
+ 13 14 1
+ 13 15 1
+ 15 16 1
+!entry.CHB.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+!entry.CHB.unit.name single str
+ "CHB"
+!entry.CHB.unit.positions table  dbl x  dbl y  dbl z
+ 1.540 111.208 -180.000
+ 1.227 100.091 -179.383
+ 1.358 122.524 0.356
+ 0.944 108.081 0.220
+ 1.502 122.437 -179.767
+ 1.414 121.010 179.188
+ 1.081 120.708 0.080
+ 1.407 120.434 -179.954
+ 1.364 119.355 -179.954
+ 0.945 114.370 -179.929
+ 1.410 119.969 -0.047
+ 1.080 120.904 179.997
+ 1.407 119.882 0.093
+ 1.725 119.960 179.936
+ 1.407 120.111 -0.047
+ 1.081 119.331 -179.987
+!entry.CHB.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.CHB.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "CHB" 1 17 1 "?" 0
+!entry.CHB.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.CHB.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.CHB.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

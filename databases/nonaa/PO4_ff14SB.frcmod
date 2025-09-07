@@ -1,0 +1,21 @@
+Remark line goes here
+MASS
+P  30.970        1.538
+O2 16.000        0.434
+
+BOND
+O2-P   525.00   1.480
+
+ANGLE
+O2-P -O2  140.000     119.900
+
+DIHE
+
+IMPROPER
+
+NONBON
+  P           2.1000  0.2000
+  O2          1.6612  0.2100
+
+
+

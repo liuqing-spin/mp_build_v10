@@ -1,0 +1,154 @@
+!!index array str
+ "PH5"
+!entry.PH5.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.345394
+ "H" "H" 0 1 131072 2 1 0.207898
+ "CA" "CT" 0 1 131072 3 6 -0.083655
+ "CB" "CT" 0 1 131072 4 6 -0.035674
+ "CG" "CA" 0 1 131072 5 6 -0.060579
+ "CD1" "CA" 0 1 131072 6 6 -0.116794
+ "CE1" "CA" 0 1 131072 7 6 -0.146073
+ "CZ" "CA" 0 1 131072 8 6 -0.122936
+ "CE2" "CA" 0 1 131072 9 6 -0.146073
+ "CD2" "CA" 0 1 131072 10 6 -0.116794
+ "HD2" "HA" 0 1 131072 11 1 0.132233
+ "HE2" "HA" 0 1 131072 12 1 0.139056
+ "HZ" "HA" 0 1 131072 13 1 0.133029
+ "HE1" "HA" 0 1 131072 14 1 0.139056
+ "HD1" "HA" 0 1 131072 15 1 0.132233
+ "HB1" "HC" 0 1 131072 16 1 0.057093
+ "HB2" "HC" 0 1 131072 17 1 0.057093
+ "HA" "H1" 0 1 131072 18 1 0.136303
+ "C" "C" 0 1 131072 19 6 0.569539
+ "O" "O" 0 1 131072 20 8 -0.529562
+!entry.PH5.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "CB" "CT" 0 -1 0.0
+ "CG" "CA" 0 -1 0.0
+ "CD1" "CA" 0 -1 0.0
+ "CE1" "CA" 0 -1 0.0
+ "CZ" "CA" 0 -1 0.0
+ "CE2" "CA" 0 -1 0.0
+ "CD2" "CA" 0 -1 0.0
+ "HD2" "HA" 0 -1 0.0
+ "HE2" "HA" 0 -1 0.0
+ "HZ" "HA" 0 -1 0.0
+ "HE1" "HA" 0 -1 0.0
+ "HD1" "HA" 0 -1 0.0
+ "HB1" "HC" 0 -1 0.0
+ "HB2" "HC" 0 -1 0.0
+ "HA" "H1" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+!entry.PH5.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.PH5.unit.childsequence single int
+ 2
+!entry.PH5.unit.connect array int
+ 1
+ 19
+!entry.PH5.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 3 4 1
+ 3 18 1
+ 3 19 1
+ 4 5 1
+ 4 16 1
+ 4 17 1
+ 5 6 1
+ 5 10 1
+ 6 7 1
+ 6 15 1
+ 7 8 1
+ 7 14 1
+ 8 13 1
+ 9 8 1
+ 9 12 1
+ 10 9 1
+ 10 11 1
+ 19 20 1
+!entry.PH5.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+ "R" 1 "A" 20
+!entry.PH5.unit.name single str
+ "PH5"
+!entry.PH5.unit.positions table  dbl x  dbl y  dbl z
+ 1.540 111.208 -180.000
+ 1.009 89.319 75.482
+ 1.467 153.858 -121.009
+ 1.548 108.548 -177.976
+ 1.522 116.642 177.537
+ 1.412 119.966 77.698
+ 1.388 120.047 -175.684
+ 1.389 120.229 1.378
+ 1.388 120.420 0.453
+ 1.389 120.252 -0.522
+ 1.080 119.747 178.645
+ 1.079 119.862 178.915
+ 1.081 119.715 179.654
+ 1.080 119.832 -179.219
+ 1.081 120.171 4.417
+ 1.090 110.006 53.487
+ 1.090 108.518 -61.776
+ 1.092 107.224 66.627
+ 1.544 114.388 -50.589
+ 1.231 119.029 149.893
+!entry.PH5.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 19 0 0 0 0
+!entry.PH5.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "PH5" 1 21 1 "p" 0
+!entry.PH5.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.PH5.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.PH5.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
