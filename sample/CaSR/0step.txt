@@ -1,1 +1,9 @@
+cp your_path/mp_build_v10/scripts/make_nonaa_lig/make_lig_v6.pl ./
+perl make_lig_v6.pl -pdb PO4.pdb -mol2 PO4.mol2 -name PO4 -gau g16 -np 1 -ac -3
+cp PO4.prepin PO4.lib PO4.frcmod your_path/mp_build_v10/databases/nonaa/
+perl make_lig_v6.pl -pdb YP4.pdb -mol2 YP4.mol2 -name YP4 -gau g16 -np 6 -ac 0
+cp YP4.prepin YP4.lib YP4.frcmod your_path/mp_build_v10/databases/nonaa/
+cp your_path/mp_build_v10/build.sh ./
+bash build.sh -p_com 8WPU.pdb -m_path your_path/mp_build_v10  -p_tmm A -p_tmm B -p_cid A -p_cid B -p_cid D -p_cid G -p_cid C -p_seq complex_seq.txt -p_tpt template.pdb -c_lig CA1.pdb -c_lig CA2.pdb -c_lig CA3.pdb -c_lig CA4.pdb -c_lig PO4A_m.pdb -c_lig PO4B_m.pdb -c_pep TRPA.pdb -c_pep TRPB.pdb -c_lig YP4A_m.pdb -c_lig YP4B_m.pdb
+
 
