@@ -1,1 +1,4 @@
+cp your_path/mp_build_v10/build.sh  ./
+bash build.sh -p_com 7cft.pdb -m_path your_path/mp_build_v10  -p_tmm A -p_tmm B -p_tmm C -p_cid A -p_cid B -p_cid C -p_cid D -p_cid E -p_cid F -p_seq complex_seq.txt -p_tpt template.pdb
+
 
