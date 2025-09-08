@@ -44,7 +44,7 @@ mv databases/pdb databases/opm_pdbs
 wget -P databases https://salilab.org/modeller/downloads/pdball.pir.gz
 gzip   -dk ./databases/pdball.pir.gz   
 ```
-wait at least 30 minutes
+
 Optional step. Run this step if the OPM database in the databasesdirectory has been updated, or when downloading the OPM library files for the first time. Wait at least 30 minutes.
 ```bash
 cd your_path/mp_build_v10/scripts/homo_build
