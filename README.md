@@ -26,22 +26,29 @@ Optional components
  **2.2 Deployment Procedure** 
 
 Clone repository and initialize databases  
-```
-git clone https://gitee.com/liuqingspin/mp_build_v10  
+```bash
+git clone https://github.com/liuqing-spin/mp_build_v10
 cd mp_build_v10
 ```  
 
 Create required directories  
-```
-mkdir -p databases/opm_pdbs databases/nonaa  
+```bash
+mkdir -p databases/nonaa  
 ```
 
 Download structural databases  
-```
+```bash
 wget -P databases https://biomembhub.org/shared/opm-assets/pdb/tar_files/all_pdbs.tar.gz
-tar -xvf databases/all_pdbs.tar.gz -C databases/opm_pdbs  
+tar -xvf databases/all_pdbs.tar.gz -C databases/
+mv databases/pdb databases/opm_pdbs
 wget -P databases https://salilab.org/modeller/downloads/pdball.pir.gz
-tar -xvf databases/pdball.pir.gz -C databases/  
+gzip   -dk ./databases/pdball.pir.gz   
+```
+wait at least 30 minutes
+Optional step. Run this step if the OPM database in the databasesdirectory has been updated, or when downloading the OPM library files for the first time. Wait at least 30 minutes.
+```bash
+cd your_path/mp_build_v10/scripts/homo_build
+perl make_opm_seq.pl
 ```
 
  **2.3 ​​AmberTools24 Installation​​** 
