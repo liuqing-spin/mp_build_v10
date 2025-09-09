@@ -1,0 +1,5 @@
+cp your_path/mp_build_v10/scripts/make_nonaa_lig/make_lig_v6.pl ./
+perl make_lig_v6.pl -pdb EZI.pdb -mol2 EZI.mol2 -name EZI -gau g16 -np 6 -ac 0
+cp EZI.prepin EZI.lib EZI.frcmod your_path/mp_build_v10/databases/nonaa/
+cp  your_path/mp_build_v10/build.sh ./
+bash build.sh -p_com 8X94.pdb -m_path  your_path/mp_build_v10   -p_tmm A -p_tmm B -p_tmm C -p_tmm D -p_cid A -p_cid B -p_cid C -p_cid D -c_lig EZIA_m.pdb -c_lig EZIB_m.pdb -c_lig EZIC_m.pdb -c_lig EZID_m.pdb -p_seq complex_seq.txt -p_tpt template.pdb
