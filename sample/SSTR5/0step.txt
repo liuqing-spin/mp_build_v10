@@ -1,0 +1,2 @@
+cp your_path/mp_build_v10/build.sh ./
+bash build.sh -p_com 8zbe_sstr5_oct.pdb -p_seq complex_seq.txt -p_tpt template.pdb -p_cid A -p_tmm A -c_pep oct_min_align.pdb -m_path your_path/mp_build_v10 -w_inh wats_inhole_del_2.pdb
