@@ -27,7 +27,7 @@ Optional components
 
 Clone repository and initialize databases  
 ```bash
-git clone https://github.com/liuqing-spin/mp_build_v10
+git clone https://gitee.com/liuqingspin/mp_build_v10  
 cd mp_build_v10
 ```  
 
@@ -45,7 +45,7 @@ wget -P databases https://salilab.org/modeller/downloads/pdball.pir.gz
 gzip   -dk ./databases/pdball.pir.gz   
 ```
 
-Optional step. Run this step if the OPM database in the databasesdirectory has been updated, or when downloading the OPM library files for the first time. Wait at least 30 minutes.
+Optional step. Run this step if the OPM database in the databases directory has been updated. Wait at least 1 hour.
 ```bash
 cd your_path/mp_build_v10/scripts/homo_build
 perl make_opm_seq.pl
@@ -65,7 +65,7 @@ sudo apt install build-essential libglu1-mesa libxi-dev libxmu-dev \
 ```
 Install Python packages
 ```
-pip3 install numpy scipy matplotlib pandas pillow mpi4py cython pymol
+pip3 install numpy scipy matplotlib pandas pillow mpi4py cython
 ```
 Extract source files
 ```
@@ -348,7 +348,7 @@ cp TOH.prepin TOH.lib TOH.frcmod your_path/mp_build_v10/databases/nonaa/
 
 ```bash
 cp your_path/mp_build_v10/build.sh ./
-bash build.sh -p_com 7xau_sstr2_Oct.pdb -p_seq complex_seq.txt -p_tpt template.pdb -p_cid A -p_tmm A -c_pep oct_min_align.pdb -m_path your_path/mp_build_v10
+bash build.sh -p_com 7xau_sstr2_Oct.pdb -p_seq complex_seq.txt -p_tpt template.pdb -p_cid A -p_tmm A -c_pep oct_min_align.pdb -m_path your_path/mp_build_v10 -w_inh 1
 bash build.sh -p_com 7xau_sstr2_Oct.pdb -p_seq complex_seq.txt -p_tpt template.pdb -p_cid A -p_tmm A -c_pep oct_min_align.pdb -m_path your_path/mp_build_v10 -w_inh wats_inhole_del_2.pdb
 ```
 
@@ -398,3 +398,4 @@ All MPBuild-repaired structures demonstrate:
 ## Note
 Currently, MPBuild_v10 does not support the construction of systems with non-standard residues based on the CHARMM force field.
 The supported phospholipid types in MPBuild_v10 are continuously expanding.
+
