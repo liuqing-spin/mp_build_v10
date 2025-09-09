@@ -1,0 +1,8 @@
+
+cp your_path/mp_build_v10/scripts/make_nonaa_lig/make_nonaa_ct_v6.pl ./
+perl make_nonaa_ct_v6.pl -pdb TOH_rename_min.pdb -mol2 TOH_rename_min_nocap.mol2 -name TOH -gau g16 -np 8 -ac 0
+cp TOH.prepin TOH.lib TOH.frcmod your_path/mp_build_v10/databases/nonaa/
+
+cp your_path/mp_build_v10/build.sh ./
+bash build.sh -p_com 7xau_sstr2_Oct.pdb -p_seq complex_seq.txt -p_tpt template.pdb -p_cid A -p_tmm A -c_pep oct_min_align.pdb -m_path your_path/mp_build_v10 -w_inh 1
+bash build.sh -p_com 7xau_sstr2_Oct.pdb -p_seq complex_seq.txt -p_tpt template.pdb -p_cid A -p_tmm A -c_pep oct_min_align.pdb -m_path your_path/mp_build_v10 -w_inh wats_inhole_del_2.pdb
