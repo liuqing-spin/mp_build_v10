@@ -27,7 +27,7 @@ Optional components
 
 Clone repository and initialize databases  
 ```bash
-git clone https://gitee.com/liuqingspin/mp_build_v10  
+git clone https://github.com/liuqing-spin/mp_build_v10
 cd mp_build_v10
 ```  
 
