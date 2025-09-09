@@ -1,0 +1,2 @@
+cp your_path/mp_build_v10/build.sh ./
+bash build.sh -p_com 8JRV.pdb -p_cid R -p_cid A -p_cid G -p_tmm R  -m_path your_path/mp_build_v10/   -w_inh 0 -p_seq complex_seq.txt -p_tpt template.pdb
