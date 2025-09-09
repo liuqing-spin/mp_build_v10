@@ -1,0 +1,3 @@
+cp your_path/mp_build_v10/build.sh ./
+bash build.sh -m_path your_path/mp_build_v10   -p_com 9bi6_gq.pdb -p_tmm R -p_cid R  -p_tpt template.pdb -p_seq complex_seq.txt -w_inh 1
+bash build.sh -m_path your_path/mp_build_v10   -p_com 9bi6_gq.pdb -p_tmm R -p_cid R -p_cid A -p_cid B -p_cid G    -p_tpt template.pdb -p_seq complex_seq.txt -w_inh wats_inhole_del_2.pdb
