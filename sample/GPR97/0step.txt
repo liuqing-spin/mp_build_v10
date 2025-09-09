@@ -1,0 +1,5 @@
+cp your_path/mp_build_v10/scripts/make_nonaa_lig/make_lig_v6.pl ./
+perl make_lig_v6.pl -pdb GXR_raw.pdb -mol2 GXR_raw.mol2  -name GXR -gau g16 -ac 0 -np 10
+cp GXR.prepin GXR.lib GXR.frcmod your_path/mp_build_v10/databases/nonaa/
+cp your_path/mp_build_v10/build.sh  ./
+bash build.sh -p_com 7D76.pdb -m_path your_path/mp_build_v10    -p_tmm R -p_cid R -p_cid A -p_cid B -p_cid G -p_seq complex_seq.txt -p_tpt template.pdb -c_lig GXR.pdb
