@@ -1,0 +1,2 @@
+cp your_path/mp_build_v10/build.sh ./
+bash build.sh -p_com 6LML.pdb   -m_path your_path/mp_build_v10 -p_tmm R -p_cid R -p_cid A -p_cid B -p_cid C -p_cid E -p_seq complex_seq.txt -p_tpt template.pdb
