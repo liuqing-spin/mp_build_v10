@@ -145,7 +145,13 @@ bash build.sh \
   -o_lip [lipid_types] \         # Membrane composition (e.g., POPC:CHL1//POPE)  
   -r_lip [lipid_ratios] \         # Lipid ratios (e.g., 4:3//1) 
   -d_opt [0/1]                    # 0 (keep intermediate files) or 1 (remove intermediate files, default)
+```
+
+Execute the following command to display the contextual help information and view currently available phospholipid types for CHARMM system construction：
+``` bash
+bash build.sh -m_path your_path/mp_build_v10  -h
 ``` 
+
  **3.2 Critical Parameter Specifications** 
 
 Structural Repair Workflow. When provided with -p_tpt, MPBuild uses AlphaFold-predicted structures as homology templates while preserving experimental protein-protein interaction interfaces. The pipeline automatically identifies and reconstructs disulfide bonds through conserved bonding pattern analysis.
