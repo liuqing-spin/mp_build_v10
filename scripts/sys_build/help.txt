@@ -1,0 +1,53 @@
+
+  -m_path [MPBuild_directory]    # Absolute path to mp_build_v10  
+  -p_com [target.pdb]            # Input PDB with hydrogens  
+  -p_tmm [transmembrane_chain]   # Chain ID of transmembrane domain, requires repeated use (e.g., `-p_tmm A -p_tmm B`)  
+  # Optional parameters  
+  -s_path [schrodinger_path]     # Schrodinger Suites installation  
+  -p_cid [chain_IDs]             # Specify domains to include, requires repeated use (e.g., `-p_cid R -p_cid A`)  
+  -p_seq [complex_seq.txt]       # Template for sequence and structure repair, FASTA format with `>[ChainID]` headers
+  -p_tpt [template.pdb]          # Structural template for gap filling, requires merged PDB of all templates
+  -c_lig [ligand.pdb]            # PDB files of pre-parameterized ligand, requires repeated use (e.g., `-c_lig CA1.pdb -c_lig CA2.pdb`) 
+  -c_pep [peptide.pdb]           # PDB files of peptides, may be with pre-parameterized noncanonical residue, requires repeated use (e.g., `-c_pep pep1.pdb -c_pep pep2.pdb`) 
+  -w_inh [0/1/water.pdb]         # Transmembrane hydration control
+  -n_num [threads]               # Parallel threads for minimization  
+  -o_lip [lipid_types]           # Membrane composition (e.g., POPC:CHL1//POPE)  
+  -r_lip [lipid_ratios]          # Lipid ratios (e.g., 4:3//1) 
+  -d_opt [0/1]                   # 0 (keep intermediate files) or 1 (remove intermediate files, default)
+
+  Available lipids types for CHARMM systems:
+POPC	1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+POPA	1-palmitoyl-2-oleoyl-sn-glycero-3-phosphate
+DOPA	1,2-dioleoyl-sn-glycero-3-phosphate
+SAPC	1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
+DSPE	1,2-distearoyl-sn-glycero-3-phopshoethanolamine
+DSPC	1,2-distearoyl-sn-glycero-3-phosphocholine
+POPE	1-palmitoyl-2-oleoyl-sn-glycero-3-phopshoethanolamine
+DSPA	1,2-distearoyl-sn-glycero-3-phosphate
+DMPG	1,2-dimyristoyl-sn-glycero-3-phosphoglycerol
+DMPC	1,2-dimyristoyl-sn-glycero-3-phosphocholine
+DOPE	1,2-dioleoyl-sn-glycero-3-phopshoethanolamine
+DLPC	1,2-dilauroyl-sn-glycero-3-phosphocholine
+DPPA	1,2-dipalmitoyl-sn-glycero-3-phosphate
+SDPC	1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+DOPG	1,2-dioleoyl-sn-glycero-3-phosphoglycerol
+DMPA	1,2-dimyristoyl-sn-glycero-3-phosphate
+DOPS	1,2-dioleoyl-sn-glycero-3-phosphoserine
+DSPG	1,2-distearoyl-sn-glycero-3-phosphoglycerol
+DLPG	1,2-dilauroyl-sn-glycero-3-phosphoglycerol
+DMPS	1,2-dimyristoyl-sn-glycero-3-phosphoserine
+DSPS	1,2-distearoyl-sn-glycero-3-phosphoserine
+POPS	1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoserine
+DMPE	1,2-dimyristoyl-sn-glycero-3-phopshoethanolamine
+DOPC	1,2-dioleoyl-sn-glycero-3-phosphocholine
+DPPE	1,2-dipalmitoyl-sn-glycero-3-phopshoethanolamine
+LPPC	1-lauroyl-2-palmitoyl-sn-glycero-3-phosphocholine
+DPPC	1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+DLPA	1,2-dilauroyl-sn-glycero-3-phosphate
+SOPC	1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine
+DPPS	1,2-dipalmitoyl-sn-glycero-3-phosphoserine
+POPG	1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+DLPE	1,2-dilauroyl-sn-glycero-3-phopshoethanolamine
+DAPC	1,2-diarachidonoyl-sn-glycero-3-phosphocholine
+DLPS	1,2-dilauroyl-sn-glycero-3-phosphoserine
+DPPG	1,2-dipalmitoyl-sn-glycero-3-phosphoglycerol
