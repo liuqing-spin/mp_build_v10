@@ -27,7 +27,7 @@ Optional components
 
 Clone repository and initialize databases  
 ```bash
-git clone https://github.com/liuqing-spin/mp_build_v10
+git clone https://gitee.com/liuqingspin/mp_build_v10  
 cd mp_build_v10
 ```  
 
@@ -130,22 +130,23 @@ ________________________________________
  **3.1 System Construction Command** 
 ```
 bash build.sh \  
-  -m_path [MPBuild_directory] \  # Absolute path to mp_build_v10  
-  -p_com [target.pdb] \          # Input PDB with hydrogens  
+  -m_path [MPBuild_directory] \   # Absolute path to mp_build_v10  
+  -p_com [target.pdb] \           # Input PDB with hydrogens  
   -p_tmm [transmembrane_chain] \  # Chain ID of transmembrane domain, requires repeated use (e.g., `-p_tmm A -p_tmm B`)  
   # Optional parameters  
-  -s_path [schrodinger_path] \   # Schrodinger Suites installation  
+  -s_path [schrodinger_path] \    # Schrodinger Suites installation  
   -p_cid [chain_IDs] \            # Specify domains to include, requires repeated use (e.g., `-p_cid R -p_cid A`)  
-  -p_seq [complex_seq.txt] \       # Template for sequence and structure repair, FASTA format with `>[ChainID]` headers
-  -p_tpt [template.pdb] \        # Structural template for gap filling, requires merged PDB of all templates
+  -p_seq [complex_seq.txt] \      # Template for sequence and structure repair, FASTA format with `>[ChainID]` headers
+  -p_tpt [template.pdb] \         # Structural template for gap filling, requires merged PDB of all templates
   -c_lig [ligand.pdb] \           # PDB files of pre-parameterized ligand, requires repeated use (e.g., `-c_lig CA1.pdb -c_lig CA2.pdb`) 
   -c_pep [peptide.pdb] \          # PDB files of peptides, may be with pre-parameterized noncanonical residue, requires repeated use (e.g., `-c_pep pep1.pdb -c_pep pep2.pdb`) 
-  -w_inh [0/1/water.pdb] \        # Transmembrane hydration control
+  -w_inh [0/1/water.pdb] \        # Transmembrane hydration control,  with a default value of 0
   -n_num [threads] \              # Parallel threads for minimization  
-  -o_lip [lipid_types] \         # Membrane composition (e.g., POPC:CHL1//POPE)  
-  -r_lip [lipid_ratios] \         # Lipid ratios (e.g., 4:3//1) 
+  -o_lip [lipid_types] \          # Membrane composition, with a default value of POPC (e.g., POPC:CHL1//POPE)  
+  -r_lip [lipid_ratios] \         # Lipid ratios, with a default value of 1 (e.g., 4:3//1) 
+  -s_cen [salt_concentration]     # Salt concentration, with the unit of M and a default value of 0.15
   -d_opt [0/1]                    # 0 (keep intermediate files) or 1 (remove intermediate files, default)
-```
+``` 
 
 Execute the following command to display the contextual help information and view currently available phospholipid types for CHARMM system construction：
 ``` bash
@@ -404,4 +405,5 @@ All MPBuild-repaired structures demonstrate:
 ## Note
 Currently, MPBuild_v10 does not support the construction of systems with non-standard residues based on the CHARMM force field.
 The supported phospholipid types in MPBuild_v10 are continuously expanding.
+
 
