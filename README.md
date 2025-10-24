@@ -401,6 +401,12 @@ For virtual screening applications:
 All MPBuild-repaired structures demonstrate:
 •	Heavy-atom RMSD ≤ 0.8 Å versus experimental structure
 
+## 6. Citation
+
+If you use MPBuild in your research, please cite:
+Liu et al. *J. Chem. Theory Comput.* 2025. [Publication Link](https://pubs.acs.org/doi/10.1021/acs.jctc.5c01078)
+
+
 
 ## Note
 Currently, MPBuild_v10 does not support the construction of systems with non-standard residues based on the CHARMM force field.
