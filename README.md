@@ -403,7 +403,7 @@ All MPBuild-repaired structures demonstrate:
 
  **5.3 Retain Header Records​** 
  
-It is recommended that the starting PDB file for the -p_comoption retains the HEADER and SSBOND records to ensure the integrity of transmembrane region positioning and disulfide bond information.
+It is recommended that the starting PDB file for the -p_com option retains the HEADER and SSBOND records to ensure the integrity of transmembrane region positioning and disulfide bond information.
 
 ## 6. Citation
 
