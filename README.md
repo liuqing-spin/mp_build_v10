@@ -396,12 +396,13 @@ For virtual screening applications:
 4.	Leverage decomposed domain PDBs for sub-minute system reconstruction
 
  **5.2 Computational Efficiency** 
+ 
 •	Structural Repair: 17-273 minutes (system-dependent)
-
 All MPBuild-repaired structures demonstrate:
 •	Heavy-atom RMSD ≤ 0.8 Å versus experimental structure
 
  **5.3 Retain Header Records​** 
+ 
 It is recommended that the starting PDB file for the -p_comoption retains the HEADER and SSBOND records to ensure the integrity of transmembrane region positioning and disulfide bond information.
 
 ## 6. Citation
